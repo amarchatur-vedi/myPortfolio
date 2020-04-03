@@ -190,8 +190,11 @@ body {
 @media only screen and (max-width: 450px){
 
   #container{
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background: url('./backgroundPicture.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .homePage{
@@ -411,8 +414,11 @@ a i:hover{
 @media only screen and (max-width: 450px){
 
   #container{
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background: url('./backgroundPicture.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .leftSection{
