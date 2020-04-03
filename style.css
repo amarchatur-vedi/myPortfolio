@@ -191,6 +191,7 @@ body {
 
   #container{
       background-size: 100% 100vh;
+      background-attachment: fixed;
   }
 
   .homePage{
@@ -403,6 +404,7 @@ a i:hover{
 
   #container{
     background-size: 100% 100vh;
+    background-attachment: fixed;
   }
 
   .leftSection{
@@ -415,6 +417,7 @@ a i:hover{
 
   #container{
     background-size: 100% 100vh;
+    background-attachment: fixed;
   }
 
   .leftSection{
@@ -607,6 +610,7 @@ a i:hover{
 
   #container{
     background-size: 100% 100vh;
+    background-attachment: fixed;
   }
 
   .projects{
