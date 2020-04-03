@@ -190,8 +190,7 @@ body {
 @media only screen and (max-width: 450px){
 
   #container{
-    background: url('./backgroundPicture.png') no-repeat fixed;
-    background-size: 100% 100vh;
+      background-size: 100% 100vh;
   }
 
   .homePage{
@@ -403,7 +402,6 @@ a i:hover{
 @media only screen and (max-width: 600px){
 
   #container{
-    background: url('./backgroundPicture.png') no-repeat fixed;
     background-size: 100% 100vh;
   }
 
@@ -416,7 +414,6 @@ a i:hover{
 @media only screen and (max-width: 450px){
 
   #container{
-    background: url('./backgroundPicture.png') no-repeat fixed;
     background-size: 100% 100vh;
   }
 
@@ -609,7 +606,6 @@ a i:hover{
 @media only screen and (max-width: 500px){
 
   #container{
-    background: url('./backgroundPicture.png') no-repeat fixed;
     background-size: 100% 100vh;
   }
 
