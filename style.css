@@ -188,6 +188,11 @@ body {
 }
 
 @media only screen and (max-width: 450px){
+
+  #container{
+    background-size: 100vh 100vh;
+  }
+
   .homePage{
     display: grid;
     grid-template:0fr  0.3fr  0fr  1fr  0.1fr /1fr;
@@ -403,6 +408,10 @@ a i:hover{
 }
 
 @media only screen and (max-width: 450px){
+
+  #container{
+    background-size: 100vh 100vh;
+  }
 
   .leftSection{
     margin-left: 1rem;
