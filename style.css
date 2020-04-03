@@ -97,7 +97,6 @@ body {
   /*------------------------------------ Container's CSS ------------------------------------*/ 
 
   #container{
-    background-attachment: fixed;
     background: url('./backgroundPicture.png') no-repeat fixed;
     background-size: 100% 100%;
   }
