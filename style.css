@@ -191,7 +191,7 @@ body {
 
   #container{
     background: url('./backgroundPicture.png') no-repeat fixed;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
   }
 
   .homePage{
@@ -404,7 +404,7 @@ a i:hover{
 
   #container{
     background: url('./backgroundPicture.png') no-repeat fixed;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
   }
 
   .leftSection{
@@ -417,7 +417,7 @@ a i:hover{
 
   #container{
     background: url('./backgroundPicture.png') no-repeat fixed;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
   }
 
   .leftSection{
@@ -610,7 +610,7 @@ a i:hover{
 
   #container{
     background: url('./backgroundPicture.png') no-repeat fixed;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
   }
 
   .projects{
