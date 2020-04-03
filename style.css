@@ -97,8 +97,6 @@ body {
   /*------------------------------------ Container's CSS ------------------------------------*/ 
 
   #container{
-    height: 100%;
-    width: 100%;
     background: url('./backgroundPicture.png') no-repeat fixed;
     background-size: 100% 100%;
   }
@@ -190,6 +188,12 @@ body {
 }
 
 @media only screen and (max-width: 450px){
+
+  #container{
+    background: url('./backgroundPicture.png') no-repeat fixed;
+    background-size: 100% 100%;
+  }
+
   .homePage{
     display: grid;
     grid-template:0fr  0.3fr  0fr  1fr  0.1fr /1fr;
@@ -398,6 +402,11 @@ a i:hover{
 
 @media only screen and (max-width: 600px){
 
+  #container{
+    background: url('./backgroundPicture.png') no-repeat fixed;
+    background-size: 100% 100%;
+  }
+
   .leftSection{
     margin-left: 1rem;
     margin-top: 1rem;
@@ -405,6 +414,11 @@ a i:hover{
 }
 
 @media only screen and (max-width: 450px){
+
+  #container{
+    background: url('./backgroundPicture.png') no-repeat fixed;
+    background-size: 100% 100%;
+  }
 
   .leftSection{
     margin-left: 1rem;
@@ -593,6 +607,12 @@ a i:hover{
 }
 
 @media only screen and (max-width: 500px){
+
+  #container{
+    background: url('./backgroundPicture.png') no-repeat fixed;
+    background-size: 100% 100%;
+  }
+
   .projects{
     display: grid;
     grid-template: 1fr 1fr  1fr 1fr/1fr;
