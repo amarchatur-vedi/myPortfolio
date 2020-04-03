@@ -97,6 +97,8 @@ body {
   /*------------------------------------ Container's CSS ------------------------------------*/ 
 
   #container{
+    height: 100%;
+    width: 100%;
     background: url('./backgroundPicture.png') no-repeat fixed;
     background-size: 100% 100%;
   }
