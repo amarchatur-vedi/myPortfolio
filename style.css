@@ -107,6 +107,7 @@ body {
     justify-items: stretch;
     background-color: rgba(12, 12, 12,0.7);
     height: 100vh;
+    background-attachment: fixed;
 }
 
   #aboutPage{
