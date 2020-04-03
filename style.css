@@ -188,15 +188,6 @@ body {
 }
 
 @media only screen and (max-width: 450px){
-
-  #container{
-    background: url('./backgroundPicture.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   .homePage{
     display: grid;
     grid-template:0fr  0.3fr  0fr  1fr  0.1fr /1fr;
@@ -412,14 +403,6 @@ a i:hover{
 }
 
 @media only screen and (max-width: 450px){
-
-  #container{
-    background: url('./backgroundPicture.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
   .leftSection{
     margin-left: 1rem;
