@@ -10,33 +10,22 @@
 /*--------------------------- dot1 --------------------------------------------*/ 
 
 @keyframes dotMovement1{
-    from{transform: translate(-10px,100px);}
-    0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
-    to{transform: translate(1400px,100px);}
+    from{margin-top: 30%;margin-left: -10%;}
+    to{margin-top: 50%;margin-left: 120%;}
+
 }
 
 #dot1{
-    animation: dotMovemen1 8s infinite;
+    animation: dotMovement1 8s infinite;
 }
 
 /*--------------------------- dot2 --------------------------------------------*/ 
 
 @keyframes dotMovement2{
-    from{transform: translate(100px,-100px);}
+    from{margin-top: 90%;margin-left: 110%;}
+    to{margin-top: -10%;margin-left: -10%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(100px,900px);}
 }
 
 #dot2{
@@ -46,15 +35,10 @@
 /*--------------------------- dot3 --------------------------------------------*/ 
 
 @keyframes dotMovement3{
-    from{transform: translate(1500px,800px);}
+    from{margin-top: -10%;margin-left: 70%;}
+    to{margin-top: 120%;margin-left: 40%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(-50px,-50px);}
 }
 
 #dot3{
@@ -64,15 +48,10 @@
 /*--------------------------- dot4 --------------------------------------------*/ 
 
 @keyframes dotMovement4{
-    from{transform: translate(700px,-100px);}
+    from{margin-top: 10%;margin-left: -10%;}
+    to{margin-top: 10%;margin-left: 125%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(400px,850px);}
 }
 
 #dot4{
@@ -82,15 +61,10 @@
 /*--------------------------- dot5 --------------------------------------------*/ 
 
 @keyframes dotMovement5{
-    from{transform: translate(-50px,500px);}
+    from{margin-top: 50%;margin-left: -130%;}
+    to{margin-top: 10%;margin-left: -10%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(800px,-150px);}
 }
 
 #dot5{
@@ -100,15 +74,10 @@
 /*--------------------------- dot6 --------------------------------------------*/ 
 
 @keyframes dotMovement6{
-    from{transform: translate(2500px,100px);}
+    from{margin-top: 35%;margin-left: 110%;}
+    to{margin-top: 120%;margin-left: 30%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(-800px,800px);}
 }
 
 #dot6{
@@ -118,15 +87,10 @@
 /*--------------------------- dot7 --------------------------------------------*/ 
 
 @keyframes dotMovement7{
-    from{transform: translate(-10px,-10px);}
+    from{margin-top: 25%;margin-left: -10%;}
+    to{margin-top: 10%;margin-left: 100%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(600px,1000px);}
 }
 
 #dot7{
@@ -136,15 +100,10 @@
 /*--------------------------- dot8 --------------------------------------------*/ 
 
 @keyframes dotMovement8{
-    from{transform: translate(200px,-50px);}
+    from{margin-top: 120%;margin-left: 90%;}
+    to{margin-top: -20%;margin-left: 30%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(1500px,300px);}
 }
 
 #dot8{
@@ -154,8 +113,10 @@
 /*--------------------------- dot9 --------------------------------------------*/ 
 
 @keyframes dotMovement9{
-    from{transform: translate(700px,-100px);}
-    to{transform: translate(-100px,800px);}
+    from{margin-top: 150%;margin-left: 10%;}
+    to{margin-top: -10%;margin-left: 70%;}
+    0%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
 }
 
 #dot9{
@@ -165,15 +126,10 @@
 /*--------------------------- dot10 --------------------------------------------*/ 
 
 @keyframes dotMovement10{
-    from{transform: translate(600px,800px);}
+    from{margin-top: -20%;margin-left: 40%;}
+    to{margin-top: 110%;margin-left: 70%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(900px,-500px);}
 }
 
 #dot10{
@@ -183,15 +139,10 @@
 /*--------------------------- dot11 --------------------------------------------*/ 
 
 @keyframes dotMovement11{
-    from{transform: translate(-50px,100px);}
+    from{margin-top: 67%;margin-left: -10%;}
+    to{margin-top: 10%;margin-left: 100%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(1500px,100px);}
 }
 
 #dot11{
@@ -201,15 +152,10 @@
 /*--------------------------- dot12 --------------------------------------------*/ 
 
 @keyframes dotMovement12{
-    from{transform: translate(-10px,-10px);}
+    from{margin-top: 30%;margin-left: -10%;}
+    to{margin-top: 70%;margin-left: 130%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(1500px,800px);}
 }
 
 #dot12{
@@ -219,15 +165,10 @@
 /*--------------------------- dot13 --------------------------------------------*/ 
 
 @keyframes dotMovement13{
-    from{transform: translate(900px,-500px);}
+    from{margin-top: -20%;margin-left: 20%;}
+    to{margin-top: -120%;margin-left: 50%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(1000px,800px);}
 }
 
 #dot13{
@@ -237,15 +178,11 @@
 /*--------------------------- dot14 --------------------------------------------*/ 
 
 @keyframes dotMovement14{
-    from{transform: translate(1500px,-100px);}
+    from{margin-top: -10%;margin-left: 60%;}
+    to{margin-top: 120%;margin-left: 30%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(-200px,400px);}
+    
 }
 
 #dot14{
@@ -255,15 +192,10 @@
 /*--------------------------- dot15 --------------------------------------------*/ 
 
 @keyframes dotMovement15{
-    from{transform: translate(1500px,500px);}
+    from{margin-top: 80%;margin-left: -10%;}
+    to{margin-top: 10%;margin-left: 130%;}
     0%{height: 7px;width: 7px;}
-    20%{height: 7px;width: 7px;}
-    25%{height: 20px;width: 20px;}
-    30%{height: 7px;width: 7px;}
-    50%{height: 20px;width: 20px;}
-    55%{height: 7px;width: 7px;}
     100%{height: 7px;width: 7px;}
-    to{transform: translate(100px,-200px);}
 }
 
 #dot15{
@@ -276,13 +208,13 @@
         animation: dotMovement1 20s infinite;
     }
     #dot2{
-        animation: dotMovement2 20s infinite;
+        animation: dotMovement2 10s infinite;
     }
     #dot3{
         animation: dotMovement3 20s infinite;
     }
     #dot4{
-        animation: dotMovement4 20s infinite;
+        animation: dotMovement4 30s infinite;
     }
     #dot5{
         animation: dotMovement5 20s infinite;
@@ -291,7 +223,7 @@
         animation: dotMovement6 20s infinite;
     }
     #dot7{
-        animation: dotMovement7 20s infinite;
+        animation: dotMovement7 15s infinite;
     }
     #dot8{
         animation: dotMovement8 20s infinite;
@@ -303,7 +235,7 @@
         animation: dotMovement10 20s infinite;
     }
     #dot11{
-        animation: dotMovement11 20s infinite;
+        animation: dotMovement11 5s infinite;
     }
     #dot12{
         animation: dotMovement12 20s infinite;
@@ -312,9 +244,49 @@
         animation: dotMovement13 20s infinite;
     }
     #dot14{
-        animation: dotMovement14 20s infinite;
+        animation: dotMovement14 18s infinite;
     }
     #dot15{
         animation: dotMovement15 20s infinite;
     }
+
+    #container{
+        position: relative;
+        z-index: -1;
+        background: rgb(0, 0, 0);
+        color:white;
+      }
+
+  .homePage{
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+  }
+
+  #aboutPage{
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+  }
+
+  #blogsPage{
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+  }
+
+  #projectPage{
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+  }
+
+  .icons a i{
+    margin: 3px;
+    height:25px;
+    width:30px;
+    background:rgb(255, 255, 255);
+    padding-top:5px;
+    text-align:center;
+    border-radius:50%;
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
 }
