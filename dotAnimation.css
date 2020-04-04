@@ -1,0 +1,320 @@
+.movingDot{
+    position: fixed;
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+/*--------------------------- dot1 --------------------------------------------*/ 
+
+@keyframes dotMovement1{
+    from{transform: translate(-10px,100px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(1400px,100px);}
+}
+
+#dot1{
+    animation: dotMovemen1 8s infinite;
+}
+
+/*--------------------------- dot2 --------------------------------------------*/ 
+
+@keyframes dotMovement2{
+    from{transform: translate(100px,-100px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(100px,900px);}
+}
+
+#dot2{
+    animation: dotMovemen2 30s infinite;
+}
+
+/*--------------------------- dot3 --------------------------------------------*/ 
+
+@keyframes dotMovement3{
+    from{transform: translate(1500px,800px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(-50px,-50px);}
+}
+
+#dot3{
+    animation: dotMovemen3 10s infinite;
+}
+
+/*--------------------------- dot4 --------------------------------------------*/ 
+
+@keyframes dotMovement4{
+    from{transform: translate(700px,-100px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(400px,850px);}
+}
+
+#dot4{
+    animation: dotMovemen4 20s infinite;
+}
+
+/*--------------------------- dot5 --------------------------------------------*/ 
+
+@keyframes dotMovement5{
+    from{transform: translate(-50px,500px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(800px,-150px);}
+}
+
+#dot5{
+    animation: dotMovemen5 10s infinite;
+}
+
+/*--------------------------- dot6 --------------------------------------------*/ 
+
+@keyframes dotMovement6{
+    from{transform: translate(2500px,100px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(-800px,800px);}
+}
+
+#dot6{
+    animation: dotMovemen6 15s infinite;
+}
+
+/*--------------------------- dot7 --------------------------------------------*/ 
+
+@keyframes dotMovement7{
+    from{transform: translate(-10px,-10px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(600px,1000px);}
+}
+
+#dot7{
+    animation: dotMovemen7 15s infinite;
+}
+
+/*--------------------------- dot8 --------------------------------------------*/ 
+
+@keyframes dotMovement8{
+    from{transform: translate(200px,-50px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(1500px,300px);}
+}
+
+#dot8{
+    animation: dotMovemen8 10s infinite;
+}
+
+/*--------------------------- dot9 --------------------------------------------*/ 
+
+@keyframes dotMovement9{
+    from{transform: translate(700px,-100px);}
+    to{transform: translate(-100px,800px);}
+}
+
+#dot9{
+    animation: dotMovemen9 10s infinite;
+}
+
+/*--------------------------- dot10 --------------------------------------------*/ 
+
+@keyframes dotMovement10{
+    from{transform: translate(600px,800px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(900px,-500px);}
+}
+
+#dot10{
+    animation: dotMovemen10 15s infinite;
+}
+
+/*--------------------------- dot11 --------------------------------------------*/ 
+
+@keyframes dotMovement11{
+    from{transform: translate(-50px,100px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(1500px,100px);}
+}
+
+#dot11{
+    animation: dotMovemen11 10s infinite;
+}
+
+/*--------------------------- dot12 --------------------------------------------*/ 
+
+@keyframes dotMovement12{
+    from{transform: translate(-10px,-10px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(1500px,800px);}
+}
+
+#dot12{
+    animation: dotMovemen12 20s infinite;
+}
+
+/*--------------------------- dot13 --------------------------------------------*/ 
+
+@keyframes dotMovement13{
+    from{transform: translate(900px,-500px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(1000px,800px);}
+}
+
+#dot13{
+    animation: dotMovemen13 20s infinite;
+}
+
+/*--------------------------- dot14 --------------------------------------------*/ 
+
+@keyframes dotMovement14{
+    from{transform: translate(1500px,-100px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(-200px,400px);}
+}
+
+#dot14{
+    animation: dotMovemen14 10s infinite;
+}
+
+/*--------------------------- dot15 --------------------------------------------*/ 
+
+@keyframes dotMovement15{
+    from{transform: translate(1500px,500px);}
+    0%{height: 7px;width: 7px;}
+    20%{height: 7px;width: 7px;}
+    25%{height: 20px;width: 20px;}
+    30%{height: 7px;width: 7px;}
+    50%{height: 20px;width: 20px;}
+    55%{height: 7px;width: 7px;}
+    100%{height: 7px;width: 7px;}
+    to{transform: translate(100px,-200px);}
+}
+
+#dot15{
+    animation: dotMovemen15 20s infinite;
+}
+
+
+@media  only screen and (max-width: 500px){
+    #dot1{
+        animation: dotMovement1 20s infinite;
+    }
+    #dot2{
+        animation: dotMovement2 20s infinite;
+    }
+    #dot3{
+        animation: dotMovement3 20s infinite;
+    }
+    #dot4{
+        animation: dotMovement4 20s infinite;
+    }
+    #dot5{
+        animation: dotMovement5 20s infinite;
+    }
+    #dot6{
+        animation: dotMovement6 20s infinite;
+    }
+    #dot7{
+        animation: dotMovement7 20s infinite;
+    }
+    #dot8{
+        animation: dotMovement8 20s infinite;
+    }
+    #dot9{
+        animation: dotMovement9 20s infinite;
+    }
+    #dot10{
+        animation: dotMovement10 20s infinite;
+    }
+    #dot11{
+        animation: dotMovement11 20s infinite;
+    }
+    #dot12{
+        animation: dotMovement12 20s infinite;
+    }
+    #dot13{
+        animation: dotMovement13 20s infinite;
+    }
+    #dot14{
+        animation: dotMovement14 20s infinite;
+    }
+    #dot15{
+        animation: dotMovement15 20s infinite;
+    }
+}
