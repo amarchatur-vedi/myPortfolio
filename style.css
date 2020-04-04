@@ -613,7 +613,7 @@ a i:hover{
 
   .projImage{
     color:black;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
   }
 
   .projectTiles{
@@ -624,14 +624,14 @@ a i:hover{
   .tilesHeader{
     color:black;
     border:1px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
   }
   
 
   .tilesTrailer{
     color:black;
     border:1px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     font-size: 13px;
   }
 
