@@ -293,4 +293,12 @@
     border: 1px solid black;
 }
 
+a i:hover{
+    transform:rotate(45deg);
+    transition:0.4s;
+    background:#060606;
+    color:red;
+    border: 1px solid red;
+}
+
 }
