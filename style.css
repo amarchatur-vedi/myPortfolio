@@ -227,8 +227,8 @@ body {
 }
 
 .icons a .fa-instagram{
-    color: rgb(197, 36, 36);
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background:linear-gradient(to bottom,#4f5bd5,#962fbf,#d62976,#fa7e1e,#feda75);
     font-weight: bolder;
 }
 
