@@ -1,7 +1,7 @@
 .movingDot{
     position: fixed;
-    height: 0px;
-    width: 0px;
+    height: 3px;
+    width: 3px;
     background-color: white;
     border-radius: 50%;
     z-index: 0;
@@ -24,8 +24,7 @@
 @keyframes dotMovement2{
     from{margin-top: 90%;margin-left: 110%;}
     to{margin-top: -10%;margin-left: -10%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot2{
@@ -37,8 +36,7 @@
 @keyframes dotMovement3{
     from{margin-top: -10%;margin-left: 70%;}
     to{margin-top: 120%;margin-left: 40%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot3{
@@ -50,8 +48,7 @@
 @keyframes dotMovement4{
     from{margin-top: 10%;margin-left: -10%;}
     to{margin-top: 10%;margin-left: 125%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot4{
@@ -63,8 +60,7 @@
 @keyframes dotMovement5{
     from{margin-top: 50%;margin-left: -130%;}
     to{margin-top: 10%;margin-left: -10%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot5{
@@ -76,8 +72,7 @@
 @keyframes dotMovement6{
     from{margin-top: 35%;margin-left: 110%;}
     to{margin-top: 120%;margin-left: 30%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot6{
@@ -89,8 +84,7 @@
 @keyframes dotMovement7{
     from{margin-top: 25%;margin-left: -10%;}
     to{margin-top: 10%;margin-left: 100%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot7{
@@ -102,8 +96,7 @@
 @keyframes dotMovement8{
     from{margin-top: 120%;margin-left: 90%;}
     to{margin-top: -20%;margin-left: 30%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot8{
@@ -115,8 +108,7 @@
 @keyframes dotMovement9{
     from{margin-top: 150%;margin-left: 10%;}
     to{margin-top: -10%;margin-left: 70%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot9{
@@ -128,8 +120,7 @@
 @keyframes dotMovement10{
     from{margin-top: -20%;margin-left: 40%;}
     to{margin-top: 110%;margin-left: 70%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot10{
@@ -141,8 +132,7 @@
 @keyframes dotMovement11{
     from{margin-top: 67%;margin-left: -10%;}
     to{margin-top: 10%;margin-left: 100%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot11{
@@ -154,8 +144,7 @@
 @keyframes dotMovement12{
     from{margin-top: 30%;margin-left: -10%;}
     to{margin-top: 70%;margin-left: 130%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+
 }
 
 #dot12{
@@ -167,8 +156,7 @@
 @keyframes dotMovement13{
     from{margin-top: -20%;margin-left: 20%;}
     to{margin-top: -120%;margin-left: 50%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
+    
 }
 
 #dot13{
@@ -180,8 +168,6 @@
 @keyframes dotMovement14{
     from{margin-top: -10%;margin-left: 60%;}
     to{margin-top: 120%;margin-left: 30%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
     
 }
 
@@ -194,8 +180,6 @@
 @keyframes dotMovement15{
     from{margin-top: 80%;margin-left: -10%;}
     to{margin-top: 10%;margin-left: 130%;}
-    0%{height: 7px;width: 7px;}
-    100%{height: 7px;width: 7px;}
 }
 
 #dot15{
@@ -281,24 +265,6 @@
     background: rgba(255, 255, 255, 0);
   }
 
-  .icons a i{
-    margin: 3px;
-    height:25px;
-    width:30px;
-    background:rgb(255, 255, 255);
-    padding-top:5px;
-    text-align:center;
-    border-radius:50%;
-    color:rgb(0, 0, 0);
-    border: 1px solid black;
-}
-
-a i:hover{
-    transform:rotate(45deg);
-    transition:0.4s;
-    background:#060606;
-    color:red;
-    border: 1px solid red;
-}
+ 
 
 }
