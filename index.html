@@ -12,14 +12,14 @@
 
 <body>
     <div class="navigationBar">
-        <input type="checkbox" id="navbarToggleButton"/>
+        <input type="checkbox" id="navbarToggleButton" onclick="sliderOpen()"/>
         <label for="navbarToggleButton" id="navbarToggle"><i class="fas fa-bars"></i></label>
         <ul class="navigationMenu">
             <li class="navigators"></li>
-            <li class="navigators"><a href="#homePage" id="Home">Home</a></li>
-            <li class="navigators"><a href="#blogsPage" id="Blogs">Blogs</a></li>
-            <li class="navigators"><a href="#projectPage" id="Projects">Projects</a></li>
-            <li class="navigators"><a href="#aboutPage" id="About">About</a></li>
+            <li class="navigators"><a href="#homePage" id="Home" onclick="sliderClose()">Home</a></li>
+            <li class="navigators"><a href="#blogsPage" id="Blogs" onclick="sliderClose()">Blogs</a></li>
+            <li class="navigators"><a href="#projectPage" id="Projects" onclick="sliderClose()">Projects</a></li>
+            <li class="navigators"><a href="#aboutPage" id="About" onclick="sliderClose()">About</a></li>
         </ul>
     </div>
     <div id="container">
@@ -57,7 +57,7 @@
             <div class="dummy">
             </div>
             <div class="profilePic">
-                <img src="./profilePic.png" id="profilePic" />
+                <i class="fas fa-user-astronaut" id="profilePic"></i>
             </div>
             <div class="dummy">
             </div>
@@ -186,7 +186,7 @@
         </div><!-- About Page -->
     
     </div> <!-- end of container -->
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
