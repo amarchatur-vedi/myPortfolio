@@ -250,20 +250,18 @@ body {
     transform: scale(1.3);
 }
 
-a .resumeButton{
-    display:block;
+.resumeButton{
     margin-top: 2rem;
     color: white;
     font-size: 15px;
-    height: 60px;
-    width: 100px;
+    height: 38px;
+    width: 88px;
     background: rgb(0, 0, 0);
     border-radius: 4px;
     transition: 0.5s;
-    text-decoration:none;
 }
 
-a .resumeButton:hover{
+.resumeButton:hover{
     background: white;
     color:black;
 }
