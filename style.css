@@ -254,11 +254,12 @@ body {
     margin-top: 2rem;
     color: white;
     font-size: 15px;
-    height: 38px;
-    width: 88px;
+    height: 60px;
+    width: 100px;
     background: rgb(0, 0, 0);
     border-radius: 4px;
     transition: 0.5s;
+    text-decoration:none;
 }
 
 .resumeButton:hover{
