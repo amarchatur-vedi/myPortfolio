@@ -1,4 +1,5 @@
 .movingDot{
+    display:none;
     position: fixed;
     height: 3px;
     width: 3px;
@@ -188,6 +189,9 @@
 
 
 @media  only screen and (max-width: 500px){
+    .movingDot{
+        display: block;
+    }
     #dot1{
         animation: dotMovement1 20s infinite;
     }
