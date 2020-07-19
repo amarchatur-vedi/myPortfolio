@@ -625,7 +625,10 @@ body {
 		height:100%;
 	}
 
-  
+  .projImage img{
+    width: 157px;
+    margin-left: 4px;
+  }
 
   .projImage{
     color:black;
