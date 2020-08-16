@@ -624,6 +624,11 @@ body {
   .projects{
     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
   }
+
+  .projDescription{
+    font-size: 15px;
+  }
+
 	#projectPage{
 		height:100%;
 	}
