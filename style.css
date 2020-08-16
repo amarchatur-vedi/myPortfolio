@@ -2,6 +2,7 @@ body {
     margin: 0;
     width:100%;
     padding: 0;
+    background: #262626;
   }
 
   /*------------------------------------ Navigation bar CSS ------------------------------------*/ 
@@ -12,7 +13,7 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 999;
-    background-color: rgba(221, 225, 231 ,0.5);
+    background: #262626;
   }
 
   .navigators a{
@@ -22,14 +23,16 @@ body {
     font-size: 20px;
     margin: 1px;
     border-radius: 3px;
-    box-shadow: -3px -3px 3px #ffffff70,
-    3px 3px 9px #000000;
+    box-shadow: 
+            #000000 4px 4px 8px,
+            #4d4d4d -4px -4px 8px;
     padding: 2px 10px;
   }
 
   .navigators a:hover{
-    box-shadow: inset -3px -3px 3px #ffffff70,
-    inset 3px 3px 9px #000000;
+    box-shadow: 
+            inset #000000 4px 4px 8px,
+            inset #4d4d4d -4px -4px 8px;
   }
 
   .navigationMenu{
@@ -117,9 +120,7 @@ body {
    
   /*------------------------------------ Container's CSS ------------------------------------*/ 
 
-  #container{
-    background: url('./backgroundPicture.png') no-repeat;
-    background-attachment: fixed;               
+  #container{            
     background-size: 100% 100vh;
   }
   
@@ -127,23 +128,20 @@ body {
     display: grid;
     grid-template:1fr/2fr 4fr 1fr 5fr 2fr;
     justify-items: stretch;
-    background-color: rgba(12, 12, 12,0.7);
     height: 100vh;
-	padding-bottom:5%;
+	  padding-bottom:5%;
 }
 
   #aboutPage{
-    background-color: rgba(255, 255, 255,0.4);
+    color: white;
     height: 100vh;
   }
 
   #blogsPage{
-    background-color: rgba(12, 12, 12,0.7);
     height: 100vh;
   }
 
   #projectPage{
-    background-color: rgba(255, 255, 255, 0.4);
     height: 100vh;
   }
   
@@ -192,7 +190,6 @@ body {
   display: grid;
   grid-template-rows:1fr;
   grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
-  background-color: rgba(12, 12, 12,0.7);
   height: 50%;
   justify-items:center;
   
@@ -236,54 +233,58 @@ body {
     margin: 3px;
     height:25px;
     width:30px;
-    padding-top:5px;
+    padding-top:6px;
     text-align:center;
     border-radius:50%;
-    border: 2px solid black;
+    box-shadow: 
+            #000000 4px 4px 8px,
+            #4d4d4d -4px -4px 8px;
     font-weight:99;
     transition: 0.5s;
 }
 
 .icons a .fa-facebook-f{
-    background:linear-gradient(to bottom,#495bff,#2500fa);
     color:rgb(255, 255, 255);
 }
 
 .icons a .fa-instagram{
-    color: white;
-    background:linear-gradient(to bottom,#4f5bd5,#962fbf,#d62976,#fa7e1e,#feda75);
-    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 
 .icons a .fa-linkedin-in{
-    background-color: rgb(0,119,181);
     color:rgb(255, 255, 255);
 }
 
 .icons a .fa-github{
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 
 
 .icons a i:hover{
-    transform: scale(1.3);
+  box-shadow: 
+  inset #000000 4px 4px 8px,
+  inset #4d4d4d -4px -4px 8px;
 }
 
 .resumeButton{
     margin-top: 2rem;
-    color: white;
     font-size: 15px;
+    color: white;
     height: 38px;
     width: 88px;
-    background: rgb(0, 0, 0);
+    background: #262626;
+    border:none;
+    box-shadow: 
+            #000000 4px 4px 8px,
+            #4d4d4d -4px -4px 8px;
     border-radius: 4px;
     transition: 0.5s;
 }
 
 .resumeButton:hover{
-    background: white;
-    color:black;
+  box-shadow: 
+  inset #000000 4px 4px 8px,
+  inset #4d4d4d -4px -4px 8px;
 }
 
 /*-----------------------------------About Page CSS--------------------------------------*/
@@ -315,9 +316,11 @@ body {
   height: 200px;
   width: 130px;
   background-color: rgb(0, 0, 0);
-  padding: 20px;
   border-radius: 10px;
   margin-left: 3rem;
+  box-shadow: 
+            #000000 8px 8px 20px,
+            #4d4d4d -8px -8px 20px;
 }
 
 #imageHeader{
@@ -352,75 +355,61 @@ body {
   margin-top: 2rem;
 }
 
-#JavaScript{
+.skills{
   width: 70%;
-  border: 2px solid black;
+  box-shadow: 
+            #000000 4px 4px 8px,
+            #4d4d4d -4px -4px 8px;
   font-weight: bolder;
   font-size: 20px;
   border-radius: 5px;
 }
 
+.skills:hover{
+  box-shadow: 
+            inset #000000 4px 4px 8px,
+            inset #4d4d4d -4px -4px 8px;
+}
+
 #JavaScript div{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 10%;
   width: 50%;
   background-color: rgb(87, 87, 87);
   padding-left: 7rem;
 }
 
-#Node{
-  width: 70%;
-  border: 2px solid black;
-  font-weight: bolder;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
 #Node div{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 10%;
   width: 40%;
   background-color: rgb(87, 87, 87);
   padding-left: 7rem;
 }
 
-#React{
-  width: 70%;
-  border: 2px solid black;
-  font-weight: bolder;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
 #React div{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 10%;
   width: 10%;
   background-color: rgb(87, 87, 87);
   padding-left: 7rem;
 }
 
-#Python{
-  width: 70%;
-  border: 2px solid black;
-  font-weight: bolder;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
 #Python div{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 10%;
   width: 20%;
   background-color: rgb(87, 87, 87);
   padding-left: 7rem;
 }
 
-#Java{
-  width: 70%;
-  border: 2px solid black;
-  font-weight: bolder;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
 #Java div{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 10%;
   width: 25%;
   background-color: rgb(87, 87, 87);
@@ -437,7 +426,6 @@ body {
 
 @media only screen and (max-width: 600px){
   #aboutPage{
-    background-color: rgba(255, 255, 255,0.4);
     height: 100%;
   }
 
@@ -457,9 +445,6 @@ body {
   #aboutPic{
     height: 250px;
     width: 150px;
-    background-color: rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 10px;
     margin-left: 20%;
   }
 
@@ -467,7 +452,6 @@ body {
     width: 80%;
 	height:22px;
     font-size: 15px;
-	border:1px solid white;
   }
   
   #JavaScript div{
@@ -475,14 +459,12 @@ body {
     height: 100%;
     width: 50%;
     padding-left: 3rem;
-    background-color: #00c5e7;
   }
   
   #Node{
     width: 80%;
 	height:22px;
     font-size: 15px;
-	border:1px solid white;
   }
   
   #Node div{
@@ -490,14 +472,12 @@ body {
     height: 100%;
     width: 30%;
     padding-left: 3rem;
-    background-color: #00c5e7;
   }
   
   #React{
     width: 80%;
 	height:22px;
     font-size: 15px;
-	border:1px solid white;
   }
   
   #React div{
@@ -505,14 +485,12 @@ body {
     height: 100%;
     width: 7%;
     padding-left: 3rem;
-    background-color: #00c5e7;
   }
   
   #Python{
     width: 80%;
 	height:22px;
     font-size: 15px;
-	border:1px solid white;
   }
   
   #Python div{
@@ -520,14 +498,12 @@ body {
     height: 100%;
     width: 15%;
     padding-left: 3rem;
-    background-color: #00c5e7;
   }
   
   #Java{
     width: 80%;
 	height:22px;
     font-size: 15px;
-	border:1px solid white;
   }
   
   #Java div{
@@ -535,7 +511,6 @@ body {
     height: 100%;
     width: 18%;
     padding-left: 3rem;
-    background-color: #00c5e7;
   }
 
   .rightSection{
@@ -576,18 +551,19 @@ body {
   margin-top: 5em;
   height: 250px;
   width: 160px;
-  border: 2px solid black;
   border-radius: 5px;
   transition: all 0.5s;
+  box-shadow: 
+            #000000 5px 5px 8px,
+            #4d4d4d -5px -5px 15px;
 }
 
 .tilesHeader{
   position: relative;
   height: 10%;
   width: 99%;
-  border:1px solid black;
-  background-color: rgba(12, 12, 12,0.7);
   color: white;
+  padding-top: 5px;
 }
 
 .tilesBody{
@@ -600,8 +576,6 @@ body {
   position: relative;
   height: 39%;
   width: 99%;
-  border:1px solid black;
-  background-color: rgba(12, 12, 12,0.7);
   color: white;
 }
 
@@ -620,7 +594,9 @@ body {
 }
 
 .projectTiles:hover{
-  transform: scale(1.1);
+  box-shadow: 
+            inset #000000 5px 5px 8px,
+            inset #4d4d4d -5px -5px 15px;
   cursor: pointer;
 }
 
@@ -656,33 +632,4 @@ body {
     max-width: 100%;
     max-height: 100%;
   }
-
-  .projDescription a{
-    color:black;
-  }
-
-  .projImage{
-    color:black;
-    background-color: rgba(255, 255, 255, 0.9);
-  }
-
-  .projectTiles{
-    color:black;
-    border:1px solid rgb(255, 255, 255);
-  }
-  
-  .tilesHeader{
-    color:black;
-    border:1px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.9);
-  }
-  
-
-  .tilesTrailer{
-    color:black;
-    border:1px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.9);
-    font-size: 13px;
-  }
-
 }
